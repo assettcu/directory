@@ -3,8 +3,8 @@
 	<head>
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link href="{!! URL::asset('public/css/bootstrap.min.css'); !!}" rel="stylesheet">
-        <link href="{!! URL::asset('public/css/main.css'); !!}" rel="stylesheet">
+		<link href="{!! URL::asset('public/css/bootstrap.min.css') !!}" rel="stylesheet">
+        <link href="{!! URL::asset('public/css/main.css') !!}" rel="stylesheet">
 
         <title>Directory</title>
 	</head>
@@ -22,7 +22,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="/">
+                            <a class="navbar-brand" href="{{ $app->make('url')->to('/') }}">
                                 <img src="{{ URL::asset('public/images/Users-icon.png') }}" width="35px" style="display:inline-block;margin-top:-8px;" /> Directory
                             </a>
                         </div>
