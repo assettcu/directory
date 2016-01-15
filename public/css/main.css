@@ -1,0 +1,28 @@
+.vertical-spacing-tiny {
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.vertical-spacing-xsmall {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.vertical-spacing-small {
+    margin-top:7px;
+    margin-bottom:7px;
+}
+.vertical-spacing-medium {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.vertical-spacing-large {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.vertical-spacing-huge {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.vertical-spacing-jumbo {
+    margin-top:25px;
+    margin-bottom:25px;
+}
